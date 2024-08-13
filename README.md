@@ -160,6 +160,7 @@ TODO: CHECK DOES THIS ALREADY HAPPEN IN CURRENT CLOUD SETUP??????
 
 - **Customize:** Tailor the provided configurations (e.g., network settings, IAM bindings, project quotas) to meet your specific requirements.
 - **Advanced Foundation:** Explore building upon this basic foundation by incorporating additional security controls and best practices from the [advanced foundation blueprint](https://github.com/terraform-google-modules/terraform-example-foundation).
+- **Security Foundation:** Learn more about security foundations in the [security foundations blueprint](https://cloud.google.com/architecture/security-foundations).
 - **Monitoring and Logging:** Integrate monitoring and logging solutions to gain visibility into your deployed resources and troubleshoot potential issues.
 - ***Deeper Automation with Cloud Build:** Explore further automation capabilities with Cloud Build, such as:
    - Running automated tests.
