@@ -108,6 +108,7 @@ git push -u origin main
 ## Setting up CI/CD with Cloud Build
 
 Follow these steps to set up automated deployments with Cloud Build:
+TODO: FIX THESE STEPS WITH PSO RECOMMENDED EXAMPLES FROM DELNAV
 
 1. **Enable the Cloud Build API:** Enable the [Cloud Build API](https://console.cloud.google.com/apis/library/cloudbuild.googleapis.com) in your Google Cloud project.
 
