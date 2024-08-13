@@ -1,7 +1,7 @@
 <span _ngcontent-ng-c3468594053="" data-testid="p6ntest-llm-prompt-response-text-area-text-segment" sandboxuid="0" class="ng-star-inserted">```markdown
 # Google Cloud Foundation Blueprint
 
-This repository contains Terraform configuration files based on Google Cloud best practices to deploy a foundational environment on Google Cloud. It provisions resources adhering to the recommendations outlined in the [setup checklist](https://cloud.google.com/docs/enterprise/setup-checklist) and aligns with the principles of the [security foundations blueprint](https://cloud.google.com/architecture/security-foundations).
+This repository contains Terraform configuration files based on Google Cloud best practices to deploy a foundational environment on Google Cloud.  It provisions resources adhering to the recommendations outlined in the [setup checklist](https://cloud.google.com/docs/enterprise/setup-checklist).   
 
 ## Architecture
 
