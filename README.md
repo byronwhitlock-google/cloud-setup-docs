@@ -70,7 +70,7 @@ git push -u origin main
 
 2. **Set up Authentication:** Configure your Google Cloud credentials for Terraform to access your Google Cloud resources. [Learn more](https://registry.terraform.io/providers/hashicorp/google/latest/docs#authentication).
 
-3. **Update Variables:** Modify the `variables.tf` file with your desired values, such as your organization ID and billing account number.
+3. **Update Variables:** Verify the `variables.tf` file contains your desired organization ID and billing account number.
 
    ```terraform
    variable "billing_account" {
