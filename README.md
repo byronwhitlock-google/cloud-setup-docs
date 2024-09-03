@@ -159,22 +159,6 @@ This option assumes that your user account (in Cloud Shell or locally) already h
 - **Follow Google Cloud's Security Best Practices:** Refer to the [security checklist](https://cloud.google.com/docs/enterprise/setup-checklist) and other security documentation for comprehensive guidance on securing your GCP environment.
 - **Terraform State Management:** Store your [Terraform state](https://cloud.google.com/docs/terraform/best-practices#manage-terraform-state) remotely in a secure location like Google Cloud Storage and enable encryption at rest. 
 
-## Terraform Plan/Apply
-1. **Initialize Terraform:** Initialize your Terraform working directory.
-  ```bash
-  terraform init
-  ```
-
-2. **Review the Plan:** Generate an execution plan and carefully review the changes Terraform will make.
-  ```bash
-  terraform plan
-  ```
-3. **Apply the Configuration:** Apply the Terraform configuration to deploy your infrastructure.
-  ```bash
-  terraform apply
-  ```
-
-
 ## Next Steps
 - Return to the Cloud Setup experience to set up your team-Level [identity and access management.](https://console.cloud.google.com/cloud-setup/workloads)
 - Deploy your workloads on top of this foundation.
