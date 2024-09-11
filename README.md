@@ -170,7 +170,7 @@ This option assumes that your user account (in Cloud Shell or locally) already h
 - Return to the Cloud Setup experience to set up your team-Level [identity and access management.](https://console.cloud.google.com/cloud-setup/workloads)
 - Deploy your workloads on top of this foundation.
 - See Solutions Center.
-- See [SMB hero packages].
+- See [SMB hero packages](https://docs.google.com/presentation/d/1Ef9Jn6r8N_9EZGs74M5VN-_1fUZz30BbR3ge3j8Cf8o/present?slide=id.g2b6b826f79b_0_5).
 - Migrate workloads using the networking you set up in this foundation.
 - See the Migrations Center.
 
