@@ -170,7 +170,6 @@ This option assumes that your user account (in Cloud Shell or locally) already h
 1. Return to the Cloud Setup experience to set up your team-Level [identity and access management.](https://console.cloud.google.com/cloud-setup/workloads)
 2. Deploy your workloads on top of this foundation.
     - See [Solutions Center](https://solutions.cloud.google.com/home).
-    - See [SMB hero packages](https://docs.google.com/presentation/d/1Ef9Jn6r8N_9EZGs74M5VN-_1fUZz30BbR3ge3j8Cf8o/present?slide=id.g2b6b826f79b_0_5).
     - [Migrate workloads](https://cloud.google.com/architecture/migration-to-google-cloud-building-your-foundation) using the networking you set up in this foundation.
     - See the [Migrations Center](https://cloud.google.com/migration-center/docs/migration-center-overview).
 3. Use GitOps and CICD to manage deployments  [Learn more](https://cloud.google.com/docs/terraform/resource-management/managing-infrastructure-as-code).
