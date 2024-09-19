@@ -239,8 +239,8 @@ Service account to access deploy terraform
    ```
 
 5. **Clone the Repository (optional):** Verify by cloning the repository to your local machine.
-  ```bash
-  git clone <your-github-repository-url>
-  cd <your-github-repository>
-  ```
+    ```bash
+    git clone <your-github-repository-url>
+    cd <your-github-repository>
+    ```
 
