@@ -41,7 +41,7 @@ Before deploying this blueprint, ensure you have the following:
 
 - **State File:** This blueprint utilizes a Google Cloud Storage (GCS) backend to store the Terraform state file. Cloud Setup usually creates a GCS bucket for you as part of generating this blueprint. If the bucket in your `backends.tf` file does not point to a valid GCS bucket, you will need to create one yourself. See the Bootstrap step in the Appendix.
 
-- **Git repository:** Code should be committed to a git repository such as GCP Secure Source Manager,  GitHub, AzureDevOps or similar depending on your needs. For detailed instructions, see Git Repository in the appendix
+- **Git repository:** Code should be committed to a git repository such as GCP Secure Source Manager,  GitHub, AzureDevOps or similar depending on your needs. For detailed instructions, see Git Repository in the appendix.
 
 - **Update Variables:** Verify the `cloud-setup.auto.tfvars` file contains your desired organization ID and billing account number.
   ```terraform
@@ -96,12 +96,12 @@ To run this Terraform code, you'll need to use either a service account or a use
       --role="ROLE_NAME"   
       ```
    
-   4. **Setup Service Account Impersonation:**
+   3. **Setup Service Account Impersonation:**
       ```bash
       gcloud auth application-default login --impersonate-service-account terraform-deployer@PROJECT_ID.iam.gserviceaccount.com
       ```
 
-   5. **Initialize and Apply Terraform:**
+   4. **Initialize and Apply Terraform:**
       - Run `terraform init` and `terraform apply` as usual. The gcloud CLI will automatically use the impersonated service account's credentials for authentication with GCP.
 
    - **Note:** After you're done with the deployment, it's recommended to revoke the impersonation by closing the terminal session or running `gcloud auth revoke`.
