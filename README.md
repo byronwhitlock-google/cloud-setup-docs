@@ -105,7 +105,7 @@ To run this Terraform code, you'll need to use either a service account or a use
 
    - **Note:** After you're done with the deployment, it's recommended to revoke the impersonation by closing the terminal session or running `gcloud auth revoke`.
 
-### Option 2: User Cloud Shell Directly or Local Machine (Pre-Authenticated)
+### Option 2: User Direct via Cloud Shell or Local Machine 
 
 This option assumes that your user account (in Cloud Shell or locally) already has the necessary IAM permissions for the Terraform deployment. This approach is convenient for quick deployments or experimentation but can pose security risks if your user account has excessive privileges.
 
